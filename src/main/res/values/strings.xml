@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Haven</string>
+    <string name="app_name" translatable="false">My Guardian</string>
     <string name="bullets" translatable="false">•••••••</string>
     <string name="menu_save">Save</string>
     <string name="menu_about">Setup…</string>
-    <string name="title_activity_start">Haven</string>
+    <string name="title_activity_start">My Guardian</string>
     <string name="accelerometer_prompt">Movement Sensitivity</string>
     <string name="microphone_sensitivity">Sound Sensitivity</string>
     <string name="timer_delay_label">Set Delay Time</string>
@@ -13,16 +13,16 @@
     </string>
     <string name="sms_hint">+12125551212</string>
     <string name="camera_prompt">Select the camera</string>
-    <string name="secure_service_started">Haven Activated</string>
-    <string name="intrusion_detected">A Haven sensor was triggered (Type: %s)</string>
+    <string name="secure_service_started">My Guardian Activated</string>
+    <string name="intrusion_detected">A My Guardian sensor was triggered (Type: %s)</string>
     <string name="title_activity_event">EventActivity</string>
     <string name="action_settings">Settings</string>
-    <string name="intro1_title">Welcome to Haven</string>
+    <string name="intro1_title">Welcome to My Guardian</string>
     <string name="intro1_desc">\"Now when the ark of human fate,\nLong baffled by the wayward wind,\nIs drifting with its peopled freight,\nSAFE HAVEN on the height find...\"\n-George Meredith</string>
-    <string name="intro2_title">Haven is for people who want to keep an eye out for intrusions into their home, office, hotel room or other private space</string>
+    <string name="intro2_title">My Guardian is for people who want to keep an eye out for intrusions into their home, office, hotel room or other private space</string>
     <string name="intro3_desc">Turn an extra phone into a motion, sound, vibration and light detector, watching for unexpected guests and unwanted intruders</string>
     <string name="intro4_desc">Get notified of intrusion events instantly and access the logs remotely or in-person later</string>
-    <string name="intro5_title">Your Haven is ready</string>
+    <string name="intro5_title">Your My Guardian is ready</string>
     <string name="intro5_desc">Activate the app at anytime using the &gt; action button on the main screen</string>
     <string name="onboarding_action_end">Finish</string>
     <string name="remote_access">Remote Access</string>
@@ -33,7 +33,7 @@
     <string name="camera_back">Back</string>
     <string name="camera_none">None</string>
     <string name="action_configure">Configure</string>
-    <string name="main_screen_title">Your Haven Log</string>
+    <string name="main_screen_title">Your My Guardian Log</string>
     <string name="current_noise_base">Current noise level is</string>
     <string name="current_accel_base">Current motion level is</string>
     <string name="configure_trigger_level">Slide to set detection threshold</string>
@@ -53,7 +53,7 @@
     <string name="power_source_status">STATE:</string>
     <string name="power_disconnected">Disconnected</string>
     <string name="you_will_receive_a_text_when_the_app_hears_or_sees_something">You will receive a text when the app hears or sees something</string>
-    <string name="know_immediately_when_haven_detects_something">Know immediately when Haven detects something</string>
+    <string name="know_immediately_when_haven_detects_something">Know immediately when My Guardian detects something</string>
     <string name="phone_saved">Phone number saved!</string>
     <string name="detection_events">detection events</string>
     <string name="data_speed">SPEED</string>
@@ -62,7 +62,7 @@
     <string name="data_power">POWER</string>
     <string name="data_battery">BATTERY</string>
     <string name="share_event_action">Share event...</string>
-    <string name="signal_test_message">This is a test message from Haven</string>
+    <string name="signal_test_message">This is a test message from My Guardian</string>
     <string name="send_test_message">Send Test Message</string>
     <string name="verify">Verify</string>
     <string name="register">Register</string>
@@ -72,7 +72,7 @@
     <string name="enter_verification">Enter the verification code you received from the Signal registration step</string>
     <string name="cancel">Cancel</string>
     <string name="register_title">Register with Signal</string>
-    <string name="register_signal_desc">Enter a phone number to register with Signal, to use to send secure notifications. You can use this device\'s phone number or setup a virtual number.\n\nWARNING: If this number is already configured with a Signal app install, it will stop working there, and only work within Haven.</string>
+    <string name="register_signal_desc">Enter a phone number to register with Signal, to use to send secure notifications. You can use this device\'s phone number or setup a virtual number.\n\nWARNING: If this number is already configured with a Signal app install, it will stop working there, and only work within My Guardian.</string>
     <string name="phone_hint">+12125551212</string>
     <string name="menu_licenses">Licenses…</string>
     <string name="sensor_light">Ambient Light</string>
@@ -118,17 +118,17 @@
     <string name="undo">UNDO</string>
     <string name="remove_all_logs">Remove all logs</string>
     <string name="events_deleted">Events deleted</string>
-    <string name="hearbeat_monitor">Haven Heartbeat Monitor</string>
+    <string name="hearbeat_monitor">My Guardian Heartbeat Monitor</string>
     <string name="hearbeat_monitor_enable">Enable Heartbeat Alert</string>
     <string name="hearbeat_monitor_summary">Checkup Interval</string>
-    <string name="heartbeat_time_dialog">Enter time (minutes) to send battery % and a single-character heart emoji. Alerts cease when Haven stops monitoring for any reason.</string>
+    <string name="heartbeat_time_dialog">Enter time (minutes) to send battery % and a single-character heart emoji. Alerts cease when My Guardian stops monitoring for any reason.</string>
     <string name="hearbeat_monitor_dialog">Configure delay between alerts</string>
     <string name="hearbeat_message_dialog">Customize message sent for heartbeat notifications. Leave blank to use default heart emoji</string>
     <string name="hearbeat_message_title">Alert Message</string>
     <string name="hearbeat_message_summary">Set custom message text</string>
     <string name="hearbeat_message_summary_on">Custom alerts enabled</string>
     <string name="hearbeat_monitor_initial_message_1">Heartbeat monitor activate: You will receive a notification every</string>
-    <string name="hearbeat_monitor_initial_message_2">minute(s) Haven is active &amp; monitoring.</string>
+    <string name="hearbeat_monitor_initial_message_2">minute(s) My Guardian is active &amp; monitoring.</string>
     <string name="battery_level_msg_text">Battery Level</string>
     <string name="title_activity_video_player">VideoPlayerActivity</string>
     <string name="config_storage_path">Storage Folder Path</string>
@@ -153,7 +153,7 @@
     <string name="registration_successful">Registration Successful</string>
     <string name="signal_reg_success_desc">You have successfully registered to Signal services. Next Step is to verify the registration for %s</string>
     <string name="verification_successful">Verification Successful</string>
-    <string name="signal_verification_success_desc">All set to send Haven alerts from Signal!</string>
+    <string name="signal_verification_success_desc">All set to send My Guardian alerts from Signal!</string>
     <string name="setup_signal_toast">Please set up Signal notifications from settings</string>
     <string name="reset_signal_configuration">Reset Signal Configuration</string>
     <string name="reset_configuration_question">Reset Signal Configuration?</string>
