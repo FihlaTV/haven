@@ -78,11 +78,11 @@ android {
 
 
     defaultConfig {
-        applicationId "org.havenapp.main"
+        applicationId "com.mvp.uphi.guardian"
         versionCode 2001
         versionName getVersionName()
-        archivesBaseName = "Haven-$versionName"
-        minSdkVersion 16
+        archivesBaseName = "Uphi-Guardian-$versionName"
+        minSdkVersion 22
         targetSdkVersion 29
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8

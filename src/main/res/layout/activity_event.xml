@@ -21,7 +21,7 @@
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            android:background="@drawable/header"
+            android:background="@drawable/guardian_header"
             >
 
             <androidx.appcompat.widget.Toolbar

@@ -1,34 +1,34 @@
 [![Build Status](https://travis-ci.org/guardianproject/haven.svg)](https://travis-ci.org/guardianproject/haven)
 
-# About Haven
+# About Guardian
 
-Haven is for people who need a way to protect their personal areas and possessions without compromising their privacy. It is an Android application that leverages on-device sensors to provide monitoring and protection of physical areas. Haven turns any Android phone into a motion, sound, vibration and light detector, watching for unexpected guests and unwanted intruders. We designed Haven for investigative journalists, human rights defenders and people at risk of forced disappearance to create a new kind of herd immunity. By combining the array of sensors found in any smartphone, with the world's most secure communications technologies, like Signal and Tor, Haven prevents the worst kind of people from silencing citizens without getting caught in the act.
+Guardianis for people who need a way to protect their personal areas and possessions without compromising their privacy. It is an Android application that leverages on-device sensors to provide monitoring and protection of physical areas. Guardianturns any Android phone into a motion, sound, vibration and light detector, watching for unexpected guests and unwanted intruders. We designed Guardianfor investigative journalists, human rights defenders and people at risk of forced disappearance to create a new kind of herd immunity. By combining the array of sensors found in any smartphone, with the world's most secure communications technologies, like Signal and Tor, Guardianprevents the worst kind of people from silencing citizens without getting caught in the act.
 
 <img src="https://raw.githubusercontent.com/guardianproject/haven/master/fastlane/android/metadata/en-US/images/phoneScreenshots/havenob1.png" width="25%"> 
 <img src="https://raw.githubusercontent.com/guardianproject/haven/master/fastlane/android/metadata/en-US/images/phoneScreenshots/havenob2.png" width="25%"> 
 <img src="https://raw.githubusercontent.com/guardianproject/haven/master/fastlane/android/metadata/en-US/images/phoneScreenshots/havenob3.png" width="25%"> 
 
-View our full [Haven App Overview](https://guardianproject.github.io/haven/docs/preso/) presentation for more about the origins and goals of the project.
+View our full [GuardianApp Overview](https://guardianproject.github.io/haven/docs/preso/) presentation for more about the origins and goals of the project.
 
 ## Announcement and Public Beta
 
-We are announcing Haven today, as an open-source project, along with a public beta release of the app. We are looking for contributors who understand that physical security is as important as digital, and who have an understanding and compassion for the kind of threats faced by the users and communities we want to support. We also think it is cool, cutting-edge and making use of encrypted messaging and onion routing in whole new ways. We believe Haven points the way to a more sophisticated approach to securing communication within networks of things and home automation system.
+We are announcing Guardiantoday, as an open-source project, along with a public beta release of the app. We are looking for contributors who understand that physical security is as important as digital, and who have an understanding and compassion for the kind of threats faced by the users and communities we want to support. We also think it is cool, cutting-edge and making use of encrypted messaging and onion routing in whole new ways. We believe Guardianpoints the way to a more sophisticated approach to securing communication within networks of things and home automation system.
 
 Learn more about the story of this project at the links below:
 
-* [Haven: Building the Most Secure Baby Monitor Ever?](https://guardianproject.info/2017/12/22/haven-building-the-most-secure-baby-monitor-ever/)
+* [Guardian: Building the Most Secure Baby Monitor Ever?](https://guardianproject.info/2017/12/22/haven-building-the-most-secure-baby-monitor-ever/)
 * [Snowden’s New App Uses Your Smartphone To Physically Guard Your Laptop](https://theintercept.com/2017/12/22/snowdens-new-app-uses-your-smartphone-to-physically-guard-your-laptop/)
 * [Snowden's New App Turns Your Phone Into a Home Security System](https://www.wired.com/story/snowden-haven-app-turns-phone-into-home-security-system/)
 
 ## Project Team
 
-Haven was developed through a collaboration between [Freedom of the Press Foundation](https://freedom.press) and [Guardian Project](https://guardianproject.info). Prototype funding was generously provided by FPF, and donations to support continuing work can be contributed through their site: https://freedom.press/donate-support-haven-open-source-project/
+Guardianwas developed through a collaboration between [Freedom of the Press Foundation](https://freedom.press) and [Guardian Project](https://guardianproject.info). Prototype funding was generously provided by FPF, and donations to support continuing work can be contributed through their site: https://freedom.press/donate-support-haven-open-source-project/
 
 ![Freedom of the Press Foundation](https://raw.githubusercontent.com/guardianproject/haven/master/art/logos/fopflogo.png)
 ![Guardian Project](https://raw.githubusercontent.com/guardianproject/haven/master/art/logos/gplogo.png)
 
 ## Safety through Sensors
-Haven only records when triggered by sound and motion and stores everything locally on the device. You can position the device's camera to capture visible motion or place your phone somewhere discreet to listen for noises. Receive secure notifications of intrusion events instantly or access logs remotely later.
+Guardianonly records when triggered by sound and motion and stores everything locally on the device. You can position the device's camera to capture visible motion or place your phone somewhere discreet to listen for noises. Receive secure notifications of intrusion events instantly or access logs remotely later.
 
 <img src="https://raw.githubusercontent.com/guardianproject/haven/master/fastlane/android/metadata/en-US/images/phoneScreenshots/haven-sound-config.png" width="25%"> 
 <img src="https://raw.githubusercontent.com/guardianproject/haven/master/fastlane/android/metadata/en-US/images/phoneScreenshots/haven-event-media.png" width="25%"> 
@@ -48,10 +48,10 @@ The application can be built using Android Studio and Gradle. It relies on a num
 
 ## Install
 
-You can currently get the Haven BETA release in one of three ways:
+You can currently get the GuardianBETA release in one of three ways:
 
-* Download [Haven from Google Play](https://play.google.com/store/apps/details?id=org.havenapp.main)
-* First, [install F-Droid](https://f-droid.org) the open-source app store, and second, add our Haven Nightly "Bleeding Edge" repository by scanning the QR Code below:
+* Download [Guardianfrom Google Play](https://play.google.com/store/apps/details?id=org.havenapp.main)
+* First, [install F-Droid](https://f-droid.org) the open-source app store, and second, add our GuardianNightly "Bleeding Edge" repository by scanning the QR Code below:
 
 <img src="https://guardianproject.github.io/haven-nightly/icon.png" width="50%"/> 
 
@@ -65,13 +65,13 @@ If you are an Android developer, you can learn more about how you can make use o
 
 ## Why no iPhone Support?
 
-While we hope to support a version of Haven that runs directly on iOS devices in the future, iPhone users can still benefit from Haven today. You can purchase an inexpensive Android phone for less than $100 and use it as your "Haven Device"; leaving it behind whilst you keep your iPhone on you. If you run Signal on your iPhone you can configure Haven on Android to send encrypted notifications, with photos and audio, directly to you. If you enable the "Tor Onion Service" feature in Haven (requires installation of "Orbot" app as well) you can remotely access all Haven log data from your iPhone using the Onion Browser app.
+While we hope to support a version of Guardianthat runs directly on iOS devices in the future, iPhone users can still benefit from Guardiantoday. You can purchase an inexpensive Android phone for less than $100 and use it as your "GuardianDevice"; leaving it behind whilst you keep your iPhone on you. If you run Signal on your iPhone you can configure Guardianon Android to send encrypted notifications, with photos and audio, directly to you. If you enable the "Tor Onion Service" feature in Guardian(requires installation of "Orbot" app as well) you can remotely access all Guardianlog data from your iPhone using the Onion Browser app.
 
 So, no, iPhone users we didn't forget about you and we hope you will pick up an inexpensive Android burner today!
 
 ## Usage
 
-Haven is meant to provide a smooth onboarding experience that walks users through configuring the sensors on their device to best detect intrusions into their environment. The current implementation has some of this implemented, but we are looking to improve this user experience dramatically.
+Guardianis meant to provide a smooth onboarding experience that walks users through configuring the sensors on their device to best detect intrusions into their environment. The current implementation has some of this implemented, but we are looking to improve this user experience dramatically.
 
 ### Main view
 
@@ -84,13 +84,13 @@ When one of the sensors is triggered (reaches the configured sensitivity thresho
 - SMS: a message is sent to the number specified when monitoring started
 - Signal: if configured, can send end-to-end encryption notifications via Signal
 
-Note that it is not necessary to install the Signal app on the device that runs Haven. Doing so may invalidate the app's previous Signal registration and safety numbers. Haven uses normal APIs to communicate via Signal.
+Note that it is not necessary to install the Signal app on the device that runs Guardian. Doing so may invalidate the app's previous Signal registration and safety numbers. Guardianuses normal APIs to communicate via Signal.
 
 Notifications are sent through a service running in the background that is defined in class `MonitorService`.
 
 ### Remote Access
 
-All event logs and captured media can be remotely accessed through a [Tor Onion Service](https://www.torproject.org/docs/onion-services). Haven must be configured as an Onion Service and requires the device to also have [Orbot: Tor for Android](https://guardianproject.info/apps/orbot) installed and running. 
+All event logs and captured media can be remotely accessed through a [Tor Onion Service](https://www.torproject.org/docs/onion-services). Guardianmust be configured as an Onion Service and requires the device to also have [Orbot: Tor for Android](https://guardianproject.info/apps/orbot) installed and running. 
 
 ## ATTRIBUTIONS
 
