@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="144dp"
             app:indicatorColor="@color/colorPrimaryDark"
-            app:waveformColor="@color/colorAccent" />
+            app:waveformColor="@color/lime" />
 
         <LinearLayout
             android:id="@+id/item_player_container"

@@ -6,6 +6,7 @@
     <color name="colorAccent">#f5c229</color>
     <color name="primary_text">#EEEEEE</color>
     <color name="secondary_text">#DDDDDD</color>
+    <color name="lime_green">#00FF00</color>
 
     <!-- 25% black -->
     <color name="translucentOverlay25">#40000000</color>

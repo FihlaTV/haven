@@ -31,7 +31,7 @@ public class PPAppIntro extends AppIntro {
         // Instead of fragments, you can also use our default slide
         // Just set a title, description, background and image. AppIntro will do the rest.
         addSlide(AppIntroFragment.newInstance(getString(R.string.intro1_title), getString(R.string.intro1_desc),
-                R.drawable.web_hi_res_512, getResources().getColor(R.color.colorPrimaryDark)));
+                R.drawable.guardian, getResources().getColor(R.color.colorPrimaryDark)));
 
         CustomSlideBigText cs1 = CustomSlideBigText.newInstance(R.layout.custom_slide_big_text);
         cs1.setTitle(getString(R.string.intro2_title));
@@ -67,7 +67,7 @@ public class PPAppIntro extends AppIntro {
         addSlide(cs4);
 
         addSlide(AppIntroFragment.newInstance(getString(R.string.intro5_title), getString(R.string.intro5_desc),
-                R.drawable.web_hi_res_512, getResources().getColor(R.color.colorPrimaryDark)));
+                R.drawable.guardian, getResources().getColor(R.color.colorPrimaryDark)));
 
         setDoneText(getString(R.string.onboarding_action_end));
 
