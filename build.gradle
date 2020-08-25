@@ -42,7 +42,7 @@ allprojects {
     project.ext {
         // these are common variables used in */build.gradle
         version_number = getVersionName()
-        group_info = "haven"
+        group_info = "uphi"
         buildToolsVersion = "29.0.2"
         minSdkVersion = 16
         targetSdkVersion = 29
@@ -78,10 +78,10 @@ android {
 
 
     defaultConfig {
-        applicationId "org.havenapp.main"
-        versionCode 2001
+        applicationId "com.mvp.uphi.guardian"
+        versionCode 1001
         versionName getVersionName()
-        archivesBaseName = "Haven-$versionName"
+        archivesBaseName = "Uphi-G-$versionName"
         minSdkVersion 16
         targetSdkVersion 29
         compileOptions {
