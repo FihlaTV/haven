@@ -78,11 +78,11 @@ android {
 
 
     defaultConfig {
-        applicationId "com.mvp.uphi.guardian"
-        versionCode 2101
+        applicationId "org.havenapp.main"
+        versionCode 2001
         versionName getVersionName()
-        archivesBaseName = "Uphi-Guardian-$versionName"
-        minSdkVersion 22
+        archivesBaseName = "Haven-$versionName"
+        minSdkVersion 16
         targetSdkVersion 29
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8
@@ -95,8 +95,7 @@ android {
      //   renderscriptSupportModeEnabled true
 
         ndk {
-            //abiFilters "armeabi", "armeabi-v7a", "x86", 'arm64-v8a'
-            ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
+            abiFilters "armeabi", "armeabi-v7a", "x86", 'arm64-v8a'
         }
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -115,13 +114,7 @@ android {
 
     buildTypes {
         release {
-            // Enables code shrinking, obfuscation, and optimization for only
-            // your project's release build type.
-            minifyEnabled true
-
-            // Enables resource shrinking, which is performed by the
-            // Android Gradle plugin.
-            shrinkResources true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
