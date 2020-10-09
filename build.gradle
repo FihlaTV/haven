@@ -190,8 +190,8 @@ dependencies {
     // android-job
     implementation 'com.evernote:android-job:1.4.2'
 
-    // new camera view: https://github.com/natario1/CameraView
-    implementation 'com.otaliastudios:cameraview:2.4.0'
+       // new camera view: https://github.com/natario1/CameraView
+    implementation 'com.otaliastudios:cameraview:2.6.4'
 
 
 }
